@@ -13,14 +13,16 @@
 * eval.py: evaluation of the generalist policy network.
  
 ### Dependencies
+* miniconda3:4.7.10-cuda10.1-cudnn7-ubuntu18.04
 * pybullet (https://pypi.org/project/pybullet/)
 * torch (https://pytorch.org/)
 * gym (https://github.com/openai/gym/)
 * all dependencies are listed in requirements.txt
-* to install all the dependencies, run
+* to install all the dependencies in requirements.txt, run
 ```bash
   pip install -r requirements.txt
 ```
+* Dockerfile is also available for building the environments
 
 ### Notes
 * Some paths are hard-coded in _eval_controller.py_ and _aliengo_gym_env.py_. Be caureful about them.
