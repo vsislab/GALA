@@ -18,7 +18,7 @@
 * gym (https://github.com/openai/gym/)
 * all dependencies are listed in requirements.txt
 * to install all the dependencies, run
-* ```bash
+```bash
   pip install -r requirements.txt
 ```
 
