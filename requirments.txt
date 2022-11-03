@@ -1,3 +1,10 @@
+scipy
+pyyaml
+lxml
+decorator
+pytz
+pandas
+numpy
 absl-py==1.0.0
 alabaster==0.7.12
 argh==0.26.2
@@ -166,10 +173,4 @@ pillow
 psutil
 clyent==1.2.2
 Rtree==0.9.7
-scipy
-pyyaml
-lxml
-decorator
-pytz
-pandas
-numpy
+
