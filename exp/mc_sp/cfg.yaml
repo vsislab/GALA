@@ -1,0 +1,530 @@
+config: mc.all.v2
+env:
+  param_randomizer:
+    Flat friction:
+    - 0.3
+    - 1.1
+    Hill friction:
+    - 0.3
+    - 1.1
+    terrain friction:
+    - 0.3
+    - 1.1
+  push_randomizer:
+    duration_step: 50
+    horizontal_force: 100
+    interval_step: 300
+    push_strength_ratio: 0.0
+    start_step: 300
+    vertical_force: 100
+playground:
+  1:Hill:
+    callback:
+      amplitude:
+      - 0.0
+      - 0.0
+      - 0.0
+      push_strength_ratio:
+      - 0.0
+      - 0.0
+      - 0.1
+      roughness:
+      - 0.03
+      - 0.03
+      - 0.01
+    num: 1.2
+    suc: 0.8
+    task:
+      action_high:
+      - 5
+      - 5
+      - 5
+      - 5
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      action_low:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      body_height_range:
+      - 0.0
+      - 0.0
+      command_duration_time: 4.0
+      forward_velocity_range:
+      - 0.0
+      - 0.0
+      heading_range:
+      - -0.0
+      - 0.0
+      lateral_velocity_range:
+      - 0.0
+      - 0.0
+      leg_width_ranged:
+      - 0.0
+      - 0.0
+      name: MCMultiRollingTask
+      rolling_rate_range:
+      - -1
+      - 1
+    terrain_type: Hill
+  2:Hill:
+    callback:
+      amplitude:
+      - 0.0
+      - 0.0
+      - 0.0
+      push_strength_ratio:
+      - 1
+      - 1
+      - 0.1
+      roughness:
+      - 0.03
+      - 0.03
+      - 0.01
+    num: 1.1
+    suc: 0.8
+    task:
+      action_high:
+      - 5
+      - 5
+      - 5
+      - 5
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      action_low:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      body_height_range:
+      - 0.0
+      - 0.0
+      command_duration_time: 4.0
+      forward_velocity_range:
+      - 0.0
+      - 0.0
+      heading_range:
+      - -0.0
+      - 0.0
+      lateral_velocity_range:
+      - 0.0
+      - 0.0
+      leg_width_ranged:
+      - 0.0
+      - 0.0
+      name: MCMultiRecoveryTask
+      rolling_rate_range:
+      - 0
+      - 0
+    terrain_type: Hill
+  3:Hill:
+    callback:
+      amplitude:
+      - 0.0
+      - 0.0
+      - 0.0
+      push_strength_ratio:
+      - 0.2
+      - 0.2
+      - 0.1
+      roughness:
+      - 0.05
+      - 0.05
+      - 0.01
+    num: 1
+    suc: 0.8
+    task:
+      action_high:
+      - 5
+      - 5
+      - 5
+      - 5
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      action_low:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      body_height_range:
+      - 0.0
+      - 0.0
+      command_duration_time: 4.0
+      forward_velocity_range:
+      - 0.3
+      - 1.2
+      heading_range:
+      - -1.5
+      - 1.5
+      lateral_velocity_range:
+      - 0.0
+      - 0.0
+      leg_width_ranged:
+      - 0.0
+      - 0.0
+      name: MCMultiForwardLocomotionTask
+      rolling_rate_range:
+      - 0
+      - 0
+    terrain_type: Hill
+  4:Hill:
+    callback:
+      amplitude:
+      - 0.0
+      - 0.0
+      - 0.0
+      push_strength_ratio:
+      - 0.2
+      - 0.2
+      - 0.1
+      roughness:
+      - 0.03
+      - 0.03
+      - 0.01
+    num: 1
+    suc: 0.8
+    task:
+      action_high:
+      - 5
+      - 5
+      - 5
+      - 5
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      action_low:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      body_height_range:
+      - 0.0
+      - 0.0
+      command_duration_time: 4.0
+      forward_velocity_range:
+      - 1.0
+      - 3.5
+      heading_range:
+      - -1.0
+      - 1.0
+      lateral_velocity_range:
+      - 0.0
+      - 0.0
+      leg_width_ranged:
+      - 0.0
+      - 0.0
+      name: MCMultiHighSpeedLocomotionTask
+      rolling_rate_range:
+      - 0
+      - 0
+    terrain_type: Hill
+  5:Hill:
+    callback:
+      amplitude:
+      - 0.0
+      - 0.0
+      - 0.0
+      push_strength_ratio:
+      - 0.2
+      - 0.2
+      - 0.1
+      roughness:
+      - 0.03
+      - 0.03
+      - 0.01
+    num: 1
+    suc: 0.8
+    task:
+      action_high:
+      - 5
+      - 5
+      - 5
+      - 5
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      action_low:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      body_height_range:
+      - 0.0
+      - 0.0
+      command_duration_time: 4.0
+      forward_velocity_range:
+      - 0.0
+      - 0.0
+      heading_range:
+      - -1.5
+      - 1.5
+      lateral_velocity_range:
+      - 0.2
+      - 1.0
+      leg_width_ranged:
+      - 0.0
+      - 0.0
+      name: MCMultiLateralLocomotionTask
+      rolling_rate_range:
+      - 0
+      - 0
+    terrain_type: Hill
+  6:Hill:
+    callback:
+      amplitude:
+      - 0.0
+      - 0.0
+      - 0.0
+      push_strength_ratio:
+      - 0.2
+      - 0.2
+      - 0.1
+      roughness:
+      - 0.05
+      - 0.05
+      - 0.01
+    num: 1
+    suc: 0.8
+    task:
+      action_high:
+      - 5
+      - 5
+      - 5
+      - 5
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      action_low:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      body_height_range:
+      - -0.2
+      - 0.15
+      command_duration_time: 4.0
+      forward_velocity_range:
+      - 0.4
+      - 1
+      heading_range:
+      - -1
+      - 1
+      lateral_velocity_range:
+      - 0.0
+      - 0.0
+      leg_width_ranged:
+      - 0.0
+      - 0.0
+      name: MCMultiHeightLocomotionTask
+      rolling_rate_range:
+      - 0
+      - 0
+    terrain_type: Hill
+  7:Hill:
+    callback:
+      amplitude:
+      - 0.0
+      - 0.0
+      - 0.0
+      push_strength_ratio:
+      - 0.1
+      - 0.1
+      - 0.1
+      roughness:
+      - 0.03
+      - 0.03
+      - 0.01
+    num: 1.1
+    suc: 0.8
+    task:
+      action_high:
+      - 5
+      - 5
+      - 5
+      - 5
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      - 12
+      action_low:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      - -12.0
+      body_height_range:
+      - 0.0
+      - 0.0
+      command_duration_time: 4.0
+      forward_velocity_range:
+      - 0.4
+      - 1
+      heading_range:
+      - -1
+      - 1
+      lateral_velocity_range:
+      - 0.0
+      - 0.0
+      leg_width_ranged:
+      - -0.13
+      - 0.13
+      name: MCMultiWidthLocomotionTask
+      rolling_rate_range:
+      - 0
+      - 0
+    terrain_type: Hill
+policy:
+  action_dim: 16
+  name: multi_critic_policy
+  neuron_dim: null
+  stack_dim: 1
+  state_dim: 69

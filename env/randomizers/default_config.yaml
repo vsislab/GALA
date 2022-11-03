@@ -1,0 +1,16 @@
+# The following ranges are in percentage. e.g. 0.8 means 80%.
+mass: [ 0.8, 1.4 ]
+inertia: [ 0.5, 2]
+# The following ranges are the physical values in SI unit.
+#payload: [ 0, 3 ]
+latency: [ 0.008, 0.018 ] # half of the overall latency (s)
+#control time step: [ 0.009, 0.013 ] # control_time_step (s)
+motor damping: [ 0., 0.02 ]  # Motor friction torque (Nm/(rad/sec)).
+motor friction: [ 0.05, 0.3 ] #Coulomb friction torque (Nm).
+motor strength: [ 0.8, 1.2 ] #Motor strength (dimensionless).
+terrain friction: [ 0.2, 1.5 ]  # Friction coefficient (Ns/m).#slip
+terrain restitution: [ 0.05, 0.2 ]  # Restitution coefficient (N/m^2).
+Flat friction: [ 0.2,1 ]
+Hill friction: [ 0.7, 1.5 ]
+KP: [ 295., 305. ]
+KD: [ 4, 6 ]
