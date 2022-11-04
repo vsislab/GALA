@@ -36,7 +36,7 @@ python eval.py --render --debug --name policy_dir_name --id id_index --mode mode
 ```
 #### Optional parameter configuration
 ##### render: rendering the environment
-##### debug: saving the debug data
+##### debug: saving the debug data to the "debug" directory
 ##### name: the directory name in which the policy network saved 
 ##### traj: drawing the trajectories of the robot feet
 ##### max_time: the max time for evaluation till terminate (seconds)
