@@ -25,7 +25,7 @@
 * Dockerfile is also available for building the environments
 
 ### Notes
-* Some paths are hard-coded in _eval_controller.py_ and _aliengo_gym_env.py_. Be caureful about them.
+* Some paths are hard-coded in _eval_controller.py_ and _aliengo_gym_env.py_. Be careful about them.
 * This repository is not maintained anymore. If you have any question, please send emails to yy_chen@mail.sdu.edu.cn.
 * The project can only be run after successful installation.
 
